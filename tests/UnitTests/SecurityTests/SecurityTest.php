@@ -13,6 +13,7 @@
  * @preserveGlobalState disabled
  * @backupStaticAttributes enabled
  */
+#[\AllowDynamicProperties]
 class SecurityTest extends PHPUnit_Smarty
 {
     public $loadSmartyBC = true;

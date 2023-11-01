@@ -13,6 +13,7 @@
  * @preserveGlobalState disabled
  * @backupStaticAttributes enabled
  */
+#[\AllowDynamicProperties]
 class StreamVariableTest extends PHPUnit_Smarty
 {
     public function setUp()
